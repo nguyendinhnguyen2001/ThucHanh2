@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#E91E63">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Danh sach cong viec" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rviewDS"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
